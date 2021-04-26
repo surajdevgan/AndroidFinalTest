@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         UserName = findViewById(R.id.username);
         Password = findViewById(R.id.password);
-        startActivity(new Intent(this, HomeScreen.class));
+     //   startActivity(new Intent(this, HomeScreen.class));
     }
 
     public void Login(View view) {

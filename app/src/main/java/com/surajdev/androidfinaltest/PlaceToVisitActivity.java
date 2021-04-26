@@ -59,12 +59,12 @@ public class PlaceToVisitActivity extends AppCompatActivity {
             discountvalue = totalprice * 5/100;
             totalprice -= discountvalue;
 
-            TotalAmount.setText(String.valueOf(totalprice));
+            TotalAmount.setText("Your Total Amount is: "+String.valueOf(totalprice));
         }
 
         else {
 
-            TotalAmount.setText(String.valueOf(totalprice));
+            TotalAmount.setText("Your Total Amount is: "+String.valueOf(totalprice));
         }
 
 
