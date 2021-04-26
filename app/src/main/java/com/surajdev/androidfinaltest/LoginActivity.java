@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
             startActivity(new Intent(this, HomeScreen.class));
             Toast.makeText(this, "User Successfully  login", Toast.LENGTH_LONG).show();
+            finish();
         }
 
         else
