@@ -24,8 +24,9 @@
 
     <SeekBar
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:min="1"
+        android:max="50"
         android:progress="1"
         android:id="@+id/visitors"
         app:layout_constraintBottom_toBottomOf="parent"
